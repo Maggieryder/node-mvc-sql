@@ -1,0 +1,35 @@
+.users-form {
+    width: 600px;
+    margin: 50px auto;
+    background: rgba(0,0,0,.2);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.form-control {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.form-control label {
+    font-size: .875rem;
+    padding-left: 10px;
+}
+
+.form-control input[type=text]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+.btn {
+    padding: 10px 30px;
+    background: #5038d8;
+    color:#d9ff00;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
