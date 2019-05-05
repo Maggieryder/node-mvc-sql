@@ -1,4 +1,4 @@
-.users-form {
+/* .users-form {
     width: 600px;
     margin: 50px auto;
     background: rgba(0,0,0,.2);
@@ -32,4 +32,29 @@
     font-size: 1rem;
     border-radius: 5px;
     border: none;
-}
+} */
+
+.form-control {
+    margin: 1rem 0;
+  }
+  
+  .form-control label,
+  .form-control input,
+  .form-control textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline-color: #00695c;
+  }
+  
